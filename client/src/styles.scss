@@ -9,11 +9,25 @@ body,
   margin: 0;
   padding: 0;
 }
+.header{
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  
+  .link{
+    margin: 1%;
+  }
+  
+}
 
 .App {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   display: flex;
+  align-content: center;
+  justify-content: center;
 
   svg {
     height: 100%;
